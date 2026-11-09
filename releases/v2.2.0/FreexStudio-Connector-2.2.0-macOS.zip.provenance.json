@@ -1,0 +1,16 @@
+{
+  "product": "FreexStudio Connector",
+  "version": "2.2.0",
+  "source_commit": "a175dc6b29a705d7043b3cf58125cc8c1024e9c6",
+  "working_tree_clean": true,
+  "source_preflight": "Tracked worktree/index and untracked app inputs checked before and after build",
+  "architectures": [
+    "arm64",
+    "x86_64"
+  ],
+  "signature": "ad-hoc",
+  "notarized": false,
+  "archive": "FreexStudio-Connector-2.2.0-macOS.zip",
+  "sha256": "0c041e4165385b578f6a1fa785f19f9eb7bd2b6c6c26af753a746e9cbc75377f",
+  "xcode": "Xcode 15.2\nBuild version 15C500b"
+}

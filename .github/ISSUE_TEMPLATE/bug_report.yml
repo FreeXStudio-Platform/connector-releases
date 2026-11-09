@@ -1,0 +1,43 @@
+name: Bug report
+description: Something in FreexStudio Connector does not work as described.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: From the About window, for example 2.2.0.
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version and Mac model
+      placeholder: macOS 15.1, MacBook Air M2
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Connection type
+      options: [USB tethering, Wi-Fi hotspot, Other or not sure]
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+      description: Steps to reproduce help most.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log excerpt
+      description: From the Log viewer. Remove anything you consider private, such as network names.
+      render: text
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before you send
+      options:
+        - label: This is not a security problem (those go to a private report, see SECURITY.md).
+          required: true

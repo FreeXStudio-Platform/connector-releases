@@ -1,0 +1,487 @@
+{
+  "bomFormat": "CycloneDX",
+  "components": [
+    {
+      "name": "FreexStudio Connector",
+      "properties": [
+        {
+          "name": "bundle-id",
+          "value": "com.lunexa.connector"
+        },
+        {
+          "name": "bundle-version",
+          "value": "1"
+        },
+        {
+          "name": "minimum-macos",
+          "value": "13.0"
+        },
+        {
+          "name": "path",
+          "value": "FreexStudio Connector.app/"
+        }
+      ],
+      "type": "application",
+      "version": "2.2.0"
+    },
+    {
+      "name": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/Combine.framework/Versions/A/Combine",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/CoreWLAN.framework/Versions/A/CoreWLAN",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/ServiceManagement.framework/Versions/A/ServiceManagement",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/SwiftUI.framework/Versions/A/SwiftUI",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/System/Library/Frameworks/UserNotifications.framework/Versions/A/UserNotifications",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "framework"
+    },
+    {
+      "name": "/usr/lib/libSystem.B.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/libobjc.A.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftCore.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftCoreFoundation.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftCoreImage.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftCoreLocation.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftDarwin.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftDispatch.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftIOKit.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftMetal.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftOSLog.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftObjectiveC.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftQuartzCore.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftXPC.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswift_Concurrency.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "name": "/usr/lib/swift/libswiftos.dylib",
+      "properties": [
+        {
+          "name": "architectures",
+          "value": "arm64,x86_64"
+        },
+        {
+          "name": "provided-by",
+          "value": "macOS"
+        }
+      ],
+      "type": "library"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "37b88e433bbd45b8c8935fc4e599b8b7636edb485132a39e6c27a2c50271310b"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/Info.plist",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "289eb787d15ae864e77a2e9d7bbc8db7e16e59f4c5455dd2e8e5142f36db6d2a"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/MacOS/FreexStudio Connector",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "82502191c9484b04d685374f9879a0066069c49b8acae7a04b01d38d07e8eca0"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/PkgInfo",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "060c25122a6f166c44345506006e105cd8a912d23c8b8f565f8d86735bc343a9"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/Resources/Assets.car",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "3e4a93cbe86acef7dd7e063a28c849992f556e7f52cadc5f37c1e8b0e1b54686"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/Resources/PrivacyInfo.xcprivacy",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "253e4e8420dab8b7a9170b8e646b783c054277a2186e7dc4129adbd537e5ecba"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/Resources/fix_internet_v5.sh",
+      "type": "file"
+    },
+    {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "af4c1e874a108efccc2c2d43e03b7a9de4c82be33e7e0262e537f8c04d0db591"
+        }
+      ],
+      "name": "FreexStudio Connector.app/Contents/_CodeSignature/CodeResources",
+      "type": "file"
+    }
+  ],
+  "metadata": {
+    "component": {
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "0c041e4165385b578f6a1fa785f19f9eb7bd2b6c6c26af753a746e9cbc75377f"
+        }
+      ],
+      "name": "FreexStudio-Connector-2.2.0-macOS.zip",
+      "type": "file",
+      "version": "2.2.0"
+    },
+    "timestamp": "2026-10-01T23:01:52Z",
+    "tools": {
+      "components": [
+        {
+          "name": "tools/sbom.py",
+          "type": "application"
+        }
+      ]
+    }
+  },
+  "serialNumber": "urn:uuid:6b1282d8-dcc2-5cee-a2b7-0d12d343520b",
+  "specVersion": "1.5",
+  "version": 1
+}
